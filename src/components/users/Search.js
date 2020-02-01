@@ -8,7 +8,7 @@ class Search extends Component {
 
     onSubmit = e => {
         e.preventDefault();
-        console.log(this.state.text)
+        console.log(this.state.text);
     }
 
     onChange = (e) => {
